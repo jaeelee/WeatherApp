@@ -33,10 +33,30 @@ expo init [프로젝트명] -> 옵션 선택(blank)
 ```
 expo login -> username, 비밀번호 입력
 ```
-<br>
+
+6. 앱 빌드하기
+```
+expo build:android
+expo build:ios
+```
+
+<br><br>
 
 ### Expo SDK
+- react native에서 제공하지 않는 component와 api를 제공<br>
+https://docs.expo.dev/versions/latest/
+
 - 위치정보
 ```
 expo install expo-location
 ```
+- AsyncStorage
+```
+expo install @react-native-async-storage/async-storage
+```
+<br>
+
+---
+## 반응형 디자인
+- 수 많은 스크린에서 동일한 방식으로 보이는 레이아웃
+- ```display: flex;```
